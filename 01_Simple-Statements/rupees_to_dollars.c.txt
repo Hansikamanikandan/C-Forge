@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    float rs,usd;
+    scanf("%f",&rs);
+
+    usd=rs/83;  // approx rate
+    printf("%.2f",usd);
+    return 0;
+}

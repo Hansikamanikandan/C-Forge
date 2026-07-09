@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    float kilometer, meter, centimeter;
+
+    printf("Enter distance in Kilometer: ");
+    scanf("%f", &kilometer);
+
+    meter = kilometer * 1000;
+    centimeter = kilometer * 100000;
+
+    printf("Meter = %.2f\n", meter);
+    printf("Centimeter = %.2f", centimeter);
+
+    return 0;
+}
